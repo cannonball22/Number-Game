@@ -1,0 +1,51 @@
+name: number_gussing_game
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ## t2 -- Presentation
+  audioplayers: ^5.2.1
+  cupertino_icons: ^1.0.2
+  lottie: ^2.0.8
+  #
+  ## t2 -- Providers
+  #
+  ## t2 -- Services
+  #t3 -- Basic
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+## t2 --Misc
+##!SECTION --Dependencies
+#
+#
+##SECTION --App Assets
+flutter:
+  uses-material-design: true
+  ##t2 --Assets Declarations
+  assets:
+    - assets/images/
+    #    - assets/images/boxes/happy_boxes
+    #    - assets/images/boxes/normal_boxes
+    #    - assets/images/numbers
+    #    - assets/images/numbers with background
+    - assets/animations/
+    - assets/sounds/
+
+  ##t2 --Fonts
+
+##!SECTION --App Assets
